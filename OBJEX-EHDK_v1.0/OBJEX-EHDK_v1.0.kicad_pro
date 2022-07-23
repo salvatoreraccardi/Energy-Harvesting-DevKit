@@ -320,6 +320,14 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "1bd0dc3d-4de3-423e-bb17-63b75cf64400",
+      "BatteryConnectors"
+    ],
+    [
+      "a80dc97e-5250-451a-b474-1975e55a6205",
+      "ESP32-C3FH4"
     ]
   ],
   "text_variables": {}

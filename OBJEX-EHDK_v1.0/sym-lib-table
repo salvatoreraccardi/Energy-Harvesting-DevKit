@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "BAT-HLD-001-TR")(type "Legacy")(uri "${KIPRJMOD}/lib/BAT-HLD-001-TR.lib")(options "")(descr ""))
+  (lib (name "SPV1050TTR")(type "Legacy")(uri "${KIPRJMOD}/lib/SPV1050TTR.lib")(options "")(descr ""))
+)

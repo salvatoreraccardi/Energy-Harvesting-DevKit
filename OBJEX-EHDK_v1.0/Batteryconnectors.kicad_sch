@@ -1451,7 +1451,7 @@
     (effects (font (size 5 5) (thickness 0.8) bold) (justify left bottom))
     (uuid 57f0dab0-24a6-46c1-b6b7-aa2827bc73ae)
   )
-  (text "C13 to avoid high voltage spike from battery \nand noise/get false reading"
+  (text "C* to avoid high voltage spike from battery \nand noise/get false reading"
     (at 135.4836 118.2878 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ab5eb51a-ae42-4e6f-99c6-b25a69f496bf)

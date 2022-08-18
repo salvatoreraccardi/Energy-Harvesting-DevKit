@@ -375,26 +375,26 @@
     )
   )
 
-  (sheet (at 180.7464 43.307) (size 41.148 23.876) (fields_autoplaced)
+  (sheet (at 221.7674 47.0154) (size 41.148 23.876) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 77920cf3-9138-4b81-b8ee-bf94eb8d1b6c)
-    (property "Sheet name" "nRF52840" (id 0) (at 180.7464 42.5954 0)
+    (property "Sheet name" "nRF52840" (id 0) (at 221.7674 46.3038 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "nrf52840.kicad_sch" (id 1) (at 180.7464 67.7676 0)
+    (property "Sheet file" "nrf52840.kicad_sch" (id 1) (at 221.7674 71.476 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 160.1216 98.5266) (size 41.148 23.876) (fields_autoplaced)
+  (sheet (at 231.0638 112.0394) (size 41.148 23.876) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a80dc97e-5250-451a-b474-1975e55a6205)
-    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 160.1216 97.815 0)
+    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 231.0638 111.3278 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 160.1216 122.9872 0)
+    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 231.0638 136.5 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -573,7 +573,13 @@
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/16cf0e22-c6b2-45a4-beaa-5cff542bc08d"
       (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/18f8811d-e1cc-49cf-90eb-71d8c7d91df3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/1a2e795d-4a59-4ae1-ae12-31e6e0d5a5ec"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/2160af26-730a-4ba1-b250-49ad590240ff"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/265e1268-b204-4606-84e8-fd927f41af90"
@@ -600,6 +606,9 @@
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/6306d17b-3678-440f-b39a-9348eb0217fe"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/6f4d671b-0561-43c6-87ba-3316dc213027"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/7cc84156-4133-4025-a938-0d4f04421fde"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -618,7 +627,19 @@
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/b1d80759-a56f-4707-9c9e-fac72f22647e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/c580c7b1-3ed2-443a-862a-905877c6fc8e"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d1ff193b-1c5d-4a55-b19c-cd2950170554"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/d7168fe5-468d-46b6-9ab4-a5f1711c1e3c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/d90b9e10-5452-459a-860c-1d11c417f5ef"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/e77d755b-331b-4e59-a2f7-118f854dc0a5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/f1176a0e-a7a3-487d-9ff8-ba9908219768"
@@ -789,23 +810,38 @@
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/c2debfe6-ad80-49c2-8edb-3f0aadcc92ab"
       (reference "J2") (unit 1) (value "JST_SM02B") (footprint "KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)")
     )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d01b8d2b-45dd-42df-b53c-40010e551b16"
-      (reference "J3") (unit 1) (value "SELECT BATT CONN") (footprint "")
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/0e8ae8a9-c31f-48ce-8c97-74196f99af3d"
+      (reference "J?") (unit 1) (value "Vout1") (footprint "")
     )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/18f5c08b-8854-4a84-b154-fdb39204f21b"
       (reference "J?") (unit 1) (value "Bridge BATT_B") (footprint "")
     )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/1a0c8e9e-4573-412a-a601-446ec9d89bd9"
+      (reference "J?") (unit 1) (value "Conn_LiPoBattery") (footprint "")
+    )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/2a9cc404-4979-4b85-a0c4-514c25a5dd7b"
       (reference "J?") (unit 1) (value "Conn_01x06") (footprint "")
+    )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/444ffcd1-454f-47c9-ab30-84d74ca0e7bc"
+      (reference "J?") (unit 1) (value "JST_SM02B") (footprint "KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)")
     )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/49bd0355-9e50-4dfa-a5f9-49ff838078df"
       (reference "J?") (unit 1) (value "Bridge BATT_A") (footprint "")
     )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/7e8379aa-0b9b-4846-8b10-c28178b0f0d4"
-      (reference "J?") (unit 1) (value "SELECT Vbatt") (footprint "")
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/7dfc511a-66c1-4aab-9c68-f8e2262796f9"
+      (reference "J?") (unit 1) (value "Solar") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/affd4210-f9c1-47a9-8f68-62fa263754e6"
+      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "")
     )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/ce069002-67e1-4069-9d6e-8af6305c11e8"
       (reference "J?") (unit 1) (value "BATT / BACKUP") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/ebeb1088-58ce-45a4-b007-277776edb5d8"
+      (reference "J?") (unit 1) (value "Vout2") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/e1833d7e-e5a2-438d-b465-87d447e8f0e8"
+      (reference "JP?") (unit 1) (value "SolderJumper_3_Open") (footprint "")
     )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/bc0c4d76-7073-443a-8935-0c1edc20eb60"
       (reference "L1") (unit 1) (value "TBD") (footprint "Inductor_SMD:L_0402_1005Metric")
@@ -900,20 +936,20 @@
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/cc828797-af90-4431-abf8-2e60d00c4c3e"
       (reference "R?") (unit 1) (value "500K") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/d29c56fa-4f66-4eda-abca-51ff85ac1a17"
+      (reference "R?") (unit 1) (value "150K") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/d51013a3-0333-4a28-874f-660105b5aae7"
       (reference "R?") (unit 1) (value "18M") (footprint "")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/dc878366-7191-4864-af41-29f3ab175ee4"
       (reference "R?") (unit 1) (value "55.6K") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/edfd2681-1660-471b-a1d2-c3d43b997978"
+      (reference "R?") (unit 1) (value "14K") (footprint "")
+    )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/a6483b00-4f49-4b33-b874-e2e0d3fd9303"
       (reference "S1") (unit 1) (value "436331045822") (footprint "SamacSys_Parts:436331045822")
-    )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d6d045a5-9e23-4381-acda-f992dccaa96e"
-      (reference "TP1") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/10d84c88-d958-42e7-80ee-0dbfa46bf9eb"
-      (reference "TP2") (unit 1) (value "+BATT") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/8e46ddad-6bfa-40af-b04f-edc6699bc195"
       (reference "U4") (unit 1) (value "ESP32-C3FH4") (footprint "KicadLibrary:ESP32-C3FH4")

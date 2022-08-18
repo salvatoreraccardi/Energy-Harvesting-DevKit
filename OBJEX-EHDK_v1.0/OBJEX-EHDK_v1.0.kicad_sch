@@ -387,14 +387,14 @@
     )
   )
 
-  (sheet (at 231.0638 112.0394) (size 41.148 23.876) (fields_autoplaced)
+  (sheet (at 177.6222 100.711) (size 41.148 23.876) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a80dc97e-5250-451a-b474-1975e55a6205)
-    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 231.0638 111.3278 0)
+    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 177.6222 99.9994 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 231.0638 136.5 0)
+    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 177.6222 125.1716 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -567,6 +567,9 @@
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/0043200b-beef-424b-8919-0a20deca9254"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/0461bfb4-7c00-4a5b-b18a-3d701d3da2dd"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/04b0a2ea-dd14-41ec-90de-e29bf1672385"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -607,6 +610,9 @@
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/6f4d671b-0561-43c6-87ba-3316dc213027"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/6f7da936-dc01-4043-8a36-57cfb7cd7a6e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/7cc84156-4133-4025-a938-0d4f04421fde"
@@ -810,6 +816,9 @@
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/c2debfe6-ad80-49c2-8edb-3f0aadcc92ab"
       (reference "J2") (unit 1) (value "JST_SM02B") (footprint "KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)")
     )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/07cef9f4-269c-4729-945f-e2ff23a3d8fd"
+      (reference "J?") (unit 1) (value "Conn_01x05") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/0e8ae8a9-c31f-48ce-8c97-74196f99af3d"
       (reference "J?") (unit 1) (value "Vout1") (footprint "")
     )
@@ -828,14 +837,26 @@
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/49bd0355-9e50-4dfa-a5f9-49ff838078df"
       (reference "J?") (unit 1) (value "Bridge BATT_A") (footprint "")
     )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/6daf50f3-d51a-4863-971a-d8d875acb299"
+      (reference "J?") (unit 1) (value "Solar") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/7dfc511a-66c1-4aab-9c68-f8e2262796f9"
       (reference "J?") (unit 1) (value "Solar") (footprint "")
     )
-    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/affd4210-f9c1-47a9-8f68-62fa263754e6"
-      (reference "J?") (unit 1) (value "Conn_01x03") (footprint "")
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/8dca231a-7a3b-4038-8ee7-0c872c0c7cc9"
+      (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
+    )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/9d5f2eb3-cded-436c-b102-715f44d1bcae"
+      (reference "J?") (unit 1) (value "3V3") (footprint "")
+    )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/baa2fef5-84f6-40b6-a0ce-adae4ea6ae51"
+      (reference "J?") (unit 1) (value "1V8") (footprint "")
     )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/ce069002-67e1-4069-9d6e-8af6305c11e8"
       (reference "J?") (unit 1) (value "BATT / BACKUP") (footprint "")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/e2b7fa87-df8b-421a-9ffd-70a15db68b2e"
+      (reference "J?") (unit 1) (value "TestPoint - Black") (footprint "")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/ebeb1088-58ce-45a4-b007-277776edb5d8"
       (reference "J?") (unit 1) (value "Vout2") (footprint "")

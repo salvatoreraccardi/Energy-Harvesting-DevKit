@@ -375,26 +375,26 @@
     )
   )
 
-  (sheet (at 180.7464 43.307) (size 41.148 23.876) (fields_autoplaced)
+  (sheet (at 221.7674 47.0154) (size 41.148 23.876) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 77920cf3-9138-4b81-b8ee-bf94eb8d1b6c)
-    (property "Sheet name" "nRF52840" (id 0) (at 180.7464 42.5954 0)
+    (property "Sheet name" "nRF52840" (id 0) (at 221.7674 46.3038 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "nrf52840.kicad_sch" (id 1) (at 180.7464 67.7676 0)
+    (property "Sheet file" "nrf52840.kicad_sch" (id 1) (at 221.7674 71.476 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 160.1216 98.5266) (size 41.148 23.876) (fields_autoplaced)
+  (sheet (at 231.0638 112.0394) (size 41.148 23.876) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid a80dc97e-5250-451a-b474-1975e55a6205)
-    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 160.1216 97.815 0)
+    (property "Sheet name" "ESP32-C3FH4" (id 0) (at 231.0638 111.3278 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 160.1216 122.9872 0)
+    (property "Sheet file" "esp32c3fh4.kicad_sch" (id 1) (at 231.0638 136.5 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -618,7 +618,13 @@
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/b1d80759-a56f-4707-9c9e-fac72f22647e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d1ff193b-1c5d-4a55-b19c-cd2950170554"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/d7168fe5-468d-46b6-9ab4-a5f1711c1e3c"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/e77d755b-331b-4e59-a2f7-118f854dc0a5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/f1176a0e-a7a3-487d-9ff8-ba9908219768"
@@ -789,20 +795,20 @@
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/c2debfe6-ad80-49c2-8edb-3f0aadcc92ab"
       (reference "J2") (unit 1) (value "JST_SM02B") (footprint "KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)")
     )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d01b8d2b-45dd-42df-b53c-40010e551b16"
-      (reference "J3") (unit 1) (value "SELECT BATT CONN") (footprint "")
-    )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/18f5c08b-8854-4a84-b154-fdb39204f21b"
       (reference "J?") (unit 1) (value "Bridge BATT_B") (footprint "")
+    )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/1a0c8e9e-4573-412a-a601-446ec9d89bd9"
+      (reference "J?") (unit 1) (value "Conn_LiPoBattery") (footprint "")
     )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/2a9cc404-4979-4b85-a0c4-514c25a5dd7b"
       (reference "J?") (unit 1) (value "Conn_01x06") (footprint "")
     )
+    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/444ffcd1-454f-47c9-ab30-84d74ca0e7bc"
+      (reference "J?") (unit 1) (value "JST_SM02B") (footprint "KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)")
+    )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/49bd0355-9e50-4dfa-a5f9-49ff838078df"
       (reference "J?") (unit 1) (value "Bridge BATT_A") (footprint "")
-    )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/7e8379aa-0b9b-4846-8b10-c28178b0f0d4"
-      (reference "J?") (unit 1) (value "SELECT Vbatt") (footprint "")
     )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/ce069002-67e1-4069-9d6e-8af6305c11e8"
       (reference "J?") (unit 1) (value "BATT / BACKUP") (footprint "")
@@ -908,12 +914,6 @@
     )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/a6483b00-4f49-4b33-b874-e2e0d3fd9303"
       (reference "S1") (unit 1) (value "436331045822") (footprint "SamacSys_Parts:436331045822")
-    )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/d6d045a5-9e23-4381-acda-f992dccaa96e"
-      (reference "TP1") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
-    )
-    (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/10d84c88-d958-42e7-80ee-0dbfa46bf9eb"
-      (reference "TP2") (unit 1) (value "+BATT") (footprint "TestPoint:TestPoint_Pad_1.5x1.5mm")
     )
     (path "/a80dc97e-5250-451a-b474-1975e55a6205/8e46ddad-6bfa-40af-b04f-edc6699bc195"
       (reference "U4") (unit 1) (value "ESP32-C3FH4") (footprint "KicadLibrary:ESP32-C3FH4")

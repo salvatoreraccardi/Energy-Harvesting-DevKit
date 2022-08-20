@@ -695,6 +695,9 @@
     (path "/19714f8a-48fe-443c-a326-7f371f1adfa6"
       (reference "#PWR0136") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/0df2b6c2-c803-4b92-98b9-357d54435668"
+      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1bd0dc3d-4de3-423e-bb17-63b75cf64400/709ea27c-ada8-4cd1-83ef-6adacf2c94d1"
       (reference "BT1") (unit 1) (value "BAT-HLD-001-TR") (footprint "lib:BAT_BAT-HLD-001-TR")
     )
@@ -720,13 +723,16 @@
       (reference "C7") (unit 1) (value "10nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/dec2214b-7b75-4c6f-945b-24e64e50fb19"
-      (reference "C8") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C8") (unit 1) (value "10uF/10V") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/5ec1cbd5-b2b9-4948-8fff-124f8e2d69bb"
       (reference "C9") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/f01dacd5-12f2-44d1-b36e-902a4f4031db"
       (reference "C10") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/508a078b-d68f-4712-a32a-0e849b7770f0"
+      (reference "C11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/214adbb5-3c55-4232-a3ac-8053525a0de3"
       (reference "H1") (unit 1) (value "M3 - ISO14580") (footprint "MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad")
@@ -764,8 +770,8 @@
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/9d5f2eb3-cded-436c-b102-715f44d1bcae"
       (reference "J8") (unit 1) (value "3V3") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/07cef9f4-269c-4729-945f-e2ff23a3d8fd"
-      (reference "J9") (unit 1) (value "Conn_01x05") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/1f97b675-1b51-4090-9806-72045df70b15"
+      (reference "J9") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/13328e08-9b7e-456b-bdea-2875dfc6fa69"
       (reference "J10") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
@@ -814,6 +820,9 @@
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/a3c79a3e-fe36-4ae6-9c06-f28efb57feb5"
       (reference "J25") (unit 1) (value "TestPoint - Black") (footprint "TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm")
+    )
+    (path "/0e8b8204-6d33-4185-b260-cc35c8d99e46/c6deeb5d-77bf-402c-b065-b32a672f9056"
+      (reference "J26") (unit 1) (value "Conn_01x02") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/e1833d7e-e5a2-438d-b465-87d447e8f0e8"
       (reference "JP1") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels")

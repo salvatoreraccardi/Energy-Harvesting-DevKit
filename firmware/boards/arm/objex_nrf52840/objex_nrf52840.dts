@@ -1,0 +1,115 @@
+// Copyright (c) 2022 Nordic Semiconductor ASA
+// SPDX-License-Identifier: Apache-2.0
+
+/dts-v1/;
+#include <nordic/nrf52840_qiaa.dtsi>
+
+/ {
+	model = "OBJEX_nRF52840";
+	compatible = "objex,objex-nrf52840";
+
+	chosen {
+		zephyr,console = &uart0;
+		zephyr,shell-uart = &uart0;
+		zephyr,uart-mcumgr = &uart0;
+		zephyr,bt-mon-uart = &uart0;
+		zephyr,bt-c2h-uart = &uart0;
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+		zephyr,code-partition = &slot0_partition;
+		//zephyr,sram = &sram0;
+		//zephyr,flash = &flash0;
+		//zephyr,code-partition = &slot0_partition;
+		//zephyr,console = &uart0;
+		//zephyr,shell-uart = &uart0;
+
+		//zephyr,uart-mcumgr = &uart0;
+		//zephyr,bt-mon-uart = &uart0;
+		//zephyr,bt-c2h-uart = &uart0;
+	};
+
+	leds {
+		compatible = "gpio-leds";
+		led0: led_0 {
+			gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+			label = "Green LED 0";
+		};
+		led1: led_1 {
+			gpios = <&gpio0 12 GPIO_ACTIVE_HIGH>;
+			label = "Green LED 1";
+		};
+		led2: led_2 {
+			gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+			label = "Green LED 2";
+		};
+		led3: led_3 {
+			gpios = <&gpio0 16 GPIO_ACTIVE_HIGH>;
+			label = "Green LED 3";
+		};
+	};
+
+	aliases {
+		led0 = &led0;
+		led1 = &led1;
+		led2 = &led2;
+		led3 = &led3;
+	};
+};
+
+&adc {
+	status = "okay";
+};
+
+&gpiote {
+	status = "okay";
+};
+
+&gpio0 {
+	status = "okay";
+};
+
+&gpio1 {
+	status = "okay";
+};
+
+&uart0 {
+	compatible = "nordic,nrf-uarte";
+	status = "okay";
+	current-speed = <115200>;
+	tx-pin = <14>; //14//6
+	rx-pin = <8>; //9
+	//rts-pin = <2>;
+	//cts-pin = <4>;
+	rts-pin = <0xFFFFFFFF>;
+	cts-pin = <0xFFFFFFFF>;
+};
+
+&flash0 {
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <1>;
+		#size-cells = <1>;
+
+		boot_partition: partition@0 {
+			label = "mcuboot";
+			reg = <0x0 0xc000>;
+		};
+		slot0_partition: partition@c000 {
+			label = "image-0";
+			reg = <0xc000 0x72000>;
+		};
+		slot1_partition: partition@7e000 {
+			label = "image-1";
+			reg = <0x7e000 0x72000>;
+		};
+		scratch_partition: partition@f0000 {
+			label = "image-scratch";
+			reg = <0xf0000 0xa000>;
+		};
+		storage_partition: partition@fa000 {
+			label = "storage";
+			reg = <0xfa000 0x6000>;
+		};
+	};
+};
+

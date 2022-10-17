@@ -1,0 +1,2 @@
+osource "e:/GithubRepository/nRF52840_TestBoard/code/boards/shields/*/Kconfig.defconfig"
+osource "C:/ncs/v2.1.0/nrf/boards/shields/*/Kconfig.defconfig"

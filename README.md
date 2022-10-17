@@ -1,4 +1,4 @@
-# EOBJEX EHDK - Energy harvesting DevKit 
+# OBJEX EHDK - Energy harvesting DevKit 
 
 ![1](https://github.com/salvatoreraccardi/Energy-Harvesting-DevKit/blob/main/dir/1.jpg)
 

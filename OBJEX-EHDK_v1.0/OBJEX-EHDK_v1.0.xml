@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/salvatore/GitHub/Energy-Harvesting-DevKit/OBJEX-EHDK_v1.0/OBJEX-EHDK_v1.0.kicad_sch</source>
+    <date>2022 December 08, Thursday 10:51:06</date>
+    <tool>Eeschema (6.0.2-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OBJEX EHDK - Energy harvesting DevKit</title>
+        <company>OBJEX </company>
+        <rev>1.0</rev>
+        <date>2022-07-23</date>
+        <source>OBJEX-EHDK_v1.0.kicad_sch</source>
+        <comment number="1" value="Designer: Salvatore Raccardi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/">
+      <title_block>
+        <title>OBJEX EHDK - Energy harvesting DevKit</title>
+        <company>OBJEX </company>
+        <rev>1.0</rev>
+        <date>2022-07-23</date>
+        <source>Batteryconnectors.kicad_sch</source>
+        <comment number="1" value="Designer: Salvatore Raccardi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/">
+      <title_block>
+        <title>OBJEX EHDK - Energy harvesting DevKit</title>
+        <company>OBJEX </company>
+        <rev>1.0</rev>
+        <date>2022-07-23</date>
+        <source>SPV1050TTR.kicad_sch</source>
+        <comment number="1" value="Designer: Salvatore Raccardi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/">
+      <title_block>
+        <title>OBJEX EHDK - Energy harvesting DevKit</title>
+        <company>OBJEX </company>
+        <rev>1.0</rev>
+        <date>2022-07-23</date>
+        <source>ADP5091.kicad_sch</source>
+        <comment number="1" value="Designer: Salvatore Raccardi"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>M3 - ISO14580</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OBJEX-EHDK_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>214adbb5-3c55-4232-a3ac-8053525a0de3</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>M3 - ISO14580</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OBJEX-EHDK_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25fe7206-2518-430c-a794-aa65e31851f1</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>M3 - ISO14580</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OBJEX-EHDK_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7956ced6-b562-45df-8bd7-997103681944</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>M3 - ISO14580</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OBJEX-EHDK_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a662e3d-4b66-4db0-88a4-477ddd7da246</tstamps>
+    </comp>
+    <comp ref="J27">
+      <value>TestPoint - Purple</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="OBJEX-EHDK_v1.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fd9fba8-c77f-4f02-83e3-2f19f822695e</tstamps>
+    </comp>
+    <comp ref="BT1">
+      <value>BAT-HLD-001-TR</value>
+      <footprint>lib:BAT_BAT-HLD-001-TR</footprint>
+      <fields>
+        <field name="MANUFACTURER">Linx Technologies</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.2 mm</field>
+        <field name="PARTREV">B</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="BAT-HLD-001-TR" part="BAT-HLD-001-TR" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="4.2 mm"/>
+      <property name="MANUFACTURER" value="Linx Technologies"/>
+      <property name="PARTREV" value="B"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>709ea27c-ada8-4cd1-83ef-6adacf2c94d1</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_LiPoBattery</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>2fb78ed1-5b9f-4ffe-8074-71a3ca10e187</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JST_SM02B</value>
+      <footprint>KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)</footprint>
+      <fields>
+        <field name="MANUFACTURER">JST Sales</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="SM02B-SURS-TF_LF__SN_" part="SM02B-SURS-TF(LF)(SN)" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="MANUFACTURER" value="JST Sales"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>c2debfe6-ad80-49c2-8edb-3f0aadcc92ab</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>BATT / BACKUP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>ce069002-67e1-4069-9d6e-8af6305c11e8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_LiPoBattery</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>1a0c8e9e-4573-412a-a601-446ec9d89bd9</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JST_SM02B</value>
+      <footprint>KicadLibrary:JST_SM02B-SURS-TF(LF)(SN)</footprint>
+      <fields>
+        <field name="MANUFACTURER">JST Sales</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="SM02B-SURS-TF_LF__SN_" part="SM02B-SURS-TF(LF)(SN)" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="1.75mm"/>
+      <property name="PARTREV" value="N/A"/>
+      <property name="MANUFACTURER" value="JST Sales"/>
+      <property name="Sheetname" value="BatteryConnectors"/>
+      <property name="Sheetfile" value="Batteryconnectors.kicad_sch"/>
+      <sheetpath names="/BatteryConnectors/" tstamps="/1bd0dc3d-4de3-423e-bb17-63b75cf64400/"/>
+      <tstamps>444ffcd1-454f-47c9-ab30-84d74ca0e7bc</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF/25V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>3136aa9a-88eb-4956-ba38-05a9ac99c55a</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>DNM</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>e021998e-4c87-4efe-9d27-d63ce39d4b4c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>1ca676e2-3754-4d3b-81da-34aa2aa4fc5f</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>47uF/10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>fa39d8ee-6dae-4e54-bd6f-0b3b99507798</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>cde795d1-db34-4279-a8ed-7af7946c8211</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>c51322eb-2d22-4f10-ba8c-1ae9a43649c9</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Solar</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>6daf50f3-d51a-4863-971a-d8d875acb299</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>1V8</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>baa2fef5-84f6-40b6-a0ce-adae4ea6ae51</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>3V3</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>9d5f2eb3-cded-436c-b102-715f44d1bcae</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>1f97b675-1b51-4090-9806-72045df70b15</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>13328e08-9b7e-456b-bdea-2875dfc6fa69</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>TestPoint - Black</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>af3ea50b-b001-4917-89b9-0fcf5b8cf67e</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>TestPoint - Red</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>0093fd4a-5acf-43ad-95e4-d413c5bb450a</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>TestPoint - Purple</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>3b9cfa3e-477b-4bb1-92e8-55debca84815</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>TestPoint - Orange</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>84967579-464c-483b-8084-c9ced6e3d908</tstamps>
+    </comp>
+    <comp ref="J26">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>c6deeb5d-77bf-402c-b065-b32a672f9056</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>f3b9a20d-2797-4761-a4d0-ace513eb4c13</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>6.2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>2cb07bd0-ef91-46cb-9da7-003fa74bda83</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>500K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>cc828797-af90-4431-abf8-2e60d00c4c3e</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>2.7M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>36e6dbc4-50ec-4039-94cf-1e89a3a9a281</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>86d92650-b15c-408c-ac13-8db27833064e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>b6a2622a-6c11-4a8b-a0b6-ed3d361a1b99</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.6M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>7ca84e7e-21ec-4d23-83d3-90a114bfe884</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SPV1050TTR</value>
+      <footprint>lib:QFN40P300X300X100-21N</footprint>
+      <fields>
+        <field name="MANUFACTURER">ST microelectronics</field>
+      </fields>
+      <libsource lib="SPV1050TTR" part="SPV1050TTR" description=""/>
+      <property name="MANUFACTURER" value="ST microelectronics"/>
+      <property name="Sheetname" value="SPV1050TTR"/>
+      <property name="Sheetfile" value="SPV1050TTR.kicad_sch"/>
+      <sheetpath names="/SPV1050TTR/" tstamps="/0e8b8204-6d33-4185-b260-cc35c8d99e46/"/>
+      <tstamps>03aaf60e-134a-4386-a053-f7bdd53f8e93</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>70128109-1aba-446b-a6d3-a18e4ddb02fb</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>10uF/10V</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>dec2214b-7b75-4c6f-945b-24e64e50fb19</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>5ec1cbd5-b2b9-4948-8fff-124f8e2d69bb</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>f01dacd5-12f2-44d1-b36e-902a4f4031db</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>508a078b-d68f-4712-a32a-0e849b7770f0</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>Solar</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>7dfc511a-66c1-4aab-9c68-f8e2262796f9</tstamps>
+    </comp>
+    <comp ref="J16">
+      <value>Vout1</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>0e8ae8a9-c31f-48ce-8c97-74196f99af3d</tstamps>
+    </comp>
+    <comp ref="J17">
+      <value>Vout2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>ebeb1088-58ce-45a4-b007-277776edb5d8</tstamps>
+    </comp>
+    <comp ref="J18">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>8dca231a-7a3b-4038-8ee7-0c872c0c7cc9</tstamps>
+    </comp>
+    <comp ref="J19">
+      <value>Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>29061204-c839-4689-82b5-7528bfa719c8</tstamps>
+    </comp>
+    <comp ref="J20">
+      <value>TestPoint - Black</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>e2b7fa87-df8b-421a-9ffd-70a15db68b2e</tstamps>
+    </comp>
+    <comp ref="J21">
+      <value>TestPoint - Red</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>504813d8-ac02-4268-9012-f5868abf7d63</tstamps>
+    </comp>
+    <comp ref="J22">
+      <value>TestPoint - Purple</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>5f83fb07-4900-4575-b461-e754d65ec30c</tstamps>
+    </comp>
+    <comp ref="J23">
+      <value>TestPoint - Orange</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>26aa0467-bea0-47fb-b253-aaf063079c31</tstamps>
+    </comp>
+    <comp ref="J24">
+      <value>TestPoint - Black</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>7999ede5-13de-4913-963f-3fce7d6245d1</tstamps>
+    </comp>
+    <comp ref="J25">
+      <value>TestPoint - Black</value>
+      <footprint>TestPoint:TestPoint_Loop_D3.80mm_Drill2.0mm</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>a3c79a3e-fe36-4ae6-9c06-f28efb57feb5</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>SolderJumper_3_Open</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels</footprint>
+      <libsource lib="Jumper" part="SolderJumper_3_Open" description="Solder Jumper, 3-pole, open"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>e1833d7e-e5a2-438d-b465-87d447e8f0e8</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>a0c4fc80-48ef-4467-a2cc-271a7f1f276b</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>14K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>edfd2681-1660-471b-a1d2-c3d43b997978</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>55.6K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>dc878366-7191-4864-af41-29f3ab175ee4</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>150K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>d29c56fa-4f66-4eda-abca-51ff85ac1a17</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>5.9M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>75631624-79e5-43a9-8a1b-19678247f8b6</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4.22M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>27d3a418-4120-4dc2-a4dc-300c82817cc6</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>6.65M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>8e229aca-5132-44d9-80ec-89b28d2cc630</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>3.3M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>0495d10b-f0fa-4de6-91c9-b5b051c89e88</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>4.7M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>920dac11-26d2-4a9e-907b-8bb17bf2332d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>18M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>d51013a3-0333-4a28-874f-660105b5aae7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>5.9M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>5ad9afc6-0def-4e59-aac9-793345faa9de</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4.22M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>9a09d0a2-980b-4e87-a2ac-b8a1a06a510b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>6.65M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>8ab111a6-e168-4227-92b6-3b6449073af9</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>8e301972-b3f2-4408-85d4-b4805aa90ad0</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>3.3M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>17bfecbd-ab54-4460-b1e8-7925bb697ee6</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>ADP5091</value>
+      <footprint>Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5091-5092.pdf</datasheet>
+      <libsource lib="Battery_Management" part="ADP5091" description="Ultralow Power Energy Harvester PMUs with MPPT and Charge Management, LFCSP-24"/>
+      <property name="Sheetname" value="ADP5091"/>
+      <property name="Sheetfile" value="ADP5091.kicad_sch"/>
+      <sheetpath names="/ADP5091/" tstamps="/c5517dfa-f1e8-47fa-ac1a-f3517e73eb9d/"/>
+      <tstamps>6e19bc0d-2341-4aeb-9511-b9dbd7e89586</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="BAT-HLD-001-TR" part="BAT-HLD-001-TR">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BAT-HLD-001-TR</field>
+        <field name="Footprint">BAT_BAT-HLD-001-TR</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">4.2 mm</field>
+        <field name="MANUFACTURER">Linx Technologies</field>
+        <field name="PARTREV">B</field>
+      </fields>
+      <pins>
+        <pin num="N1" name="" type="passive"/>
+        <pin num="P1" name="" type="passive"/>
+        <pin num="P2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Battery_Management" part="ADP5091">
+      <description>Ultralow Power Energy Harvester PMUs with MPPT and Charge Management, LFCSP-24</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5091-5092.pdf</docs>
+      <footprints>
+        <fp>LFCSP*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADP5091</field>
+        <field name="Footprint">Package_CSP:LFCSP-24-1EP_4x4mm_P0.5mm_EP2.3x2.3mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ADP5091-5092.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="passive"/>
+        <pin num="2" name="SETSD" type="passive"/>
+        <pin num="3" name="SETBK" type="passive"/>
+        <pin num="4" name="TERM" type="passive"/>
+        <pin num="5" name="SETPG" type="passive"/>
+        <pin num="6" name="SETHYST" type="passive"/>
+        <pin num="7" name="AGND" type="power_in"/>
+        <pin num="8" name="CBP" type="passive"/>
+        <pin num="9" name="MPPT" type="input"/>
+        <pin num="10" name="VIN" type="power_in"/>
+        <pin num="11" name="LLD" type="output"/>
+        <pin num="12" name="PGND" type="power_in"/>
+        <pin num="13" name="SW" type="power_in"/>
+        <pin num="14" name="REG_OUT" type="power_out"/>
+        <pin num="15" name="REG_FB" type="power_out"/>
+        <pin num="16" name="SYS" type="power_out"/>
+        <pin num="17" name="BAT" type="power_out"/>
+        <pin num="18" name="BACK_UP" type="power_in"/>
+        <pin num="19" name="PGOOD" type="output"/>
+        <pin num="20" name="VID" type="input"/>
+        <pin num="21" name="MINOP" type="passive"/>
+        <pin num="22" name="DIS_SW" type="input"/>
+        <pin num="23" name="REG_D1" type="input"/>
+        <pin num="24" name="REG_D0" type="input"/>
+        <pin num="25" name="AGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_3_Open">
+      <description>Solder Jumper, 3-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SM02B-SURS-TF_LF__SN_" part="SM02B-SURS-TF(LF)(SN)">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SM02B-SURS-TF_LF__SN__SM02B-SURS-TF(LF)(SN)</field>
+        <field name="Footprint">JST_SM02B-SURS-TF(LF)(SN)</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">1.75mm</field>
+        <field name="PARTREV">N/A</field>
+        <field name="MANUFACTURER">JST Sales</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SPV1050TTR" part="SPV1050TTR">
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">SPV1050TTR</field>
+        <field name="Footprint">QFN40P300X300X100-21N</field>
+        <field name="MANUFACTURER">ST microelectronics</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MPP" type="input"/>
+        <pin num="2" name="MPP_SET" type="input"/>
+        <pin num="3" name="MPP_REF" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="LDO1_EN" type="input"/>
+        <pin num="6" name="LDO2_EN" type="input"/>
+        <pin num="7" name="BATT_CHG" type="output"/>
+        <pin num="8" name="BATT_CONN" type="output"/>
+        <pin num="9" name="EOC" type="input"/>
+        <pin num="10" name="UVP" type="input"/>
+        <pin num="11" name="LDO1" type="output"/>
+        <pin num="12" name="LDO2" type="output"/>
+        <pin num="13" name="CONF" type="input"/>
+        <pin num="14" name="BATT" type="bidirectional"/>
+        <pin num="15" name="STORE" type="bidirectional"/>
+        <pin num="16" name="IN_LV" type="input"/>
+        <pin num="18" name="PGND" type="power_in"/>
+        <pin num="19" name="L_HV" type="input"/>
+        <pin num="20" name="IN_HV" type="input"/>
+        <pin num="21" name="EXP" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="BAT-HLD-001-TR">
+      <uri>/Users/salvatore/GitHub/Energy-Harvesting-DevKit/OBJEX-EHDK_v1.0/lib/BAT-HLD-001-TR.lib</uri>
+    </library>
+    <library logical="Battery_Management">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Battery_Management.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="SPV1050TTR">
+      <uri>/Users/salvatore/GitHub/Energy-Harvesting-DevKit/OBJEX-EHDK_v1.0/lib/SPV1050TTR.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ADP5091/BACKUP-BATT_ADP5091">
+      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U2" pin="18" pinfunction="BACK_UP" pintype="power_in"/>
+    </net>
+    <net code="2" name="/ADP5091/BATT_ADP5091">
+      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="BAT" pintype="power_out"/>
+    </net>
+    <net code="3" name="/ADP5091/LLD">
+      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="LLD" pintype="output"/>
+    </net>
+    <net code="4" name="/ADP5091/REG_D0">
+      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="24" pinfunction="REG_D0" pintype="input"/>
+    </net>
+    <net code="5" name="/ADP5091/REG_D1">
+      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="23" pinfunction="REG_D1" pintype="input"/>
+    </net>
+    <net code="6" name="/ADP5091/SolarPanel">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="7" name="/ADP5091/Vout(MCU)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="SYS" pintype="power_out"/>
+    </net>
+    <net code="8" name="/ADP5091/Vout(Sens)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="REG_OUT" pintype="power_out"/>
+      <node ref="U2" pin="15" pinfunction="REG_FB" pintype="power_out"/>
+    </net>
+    <net code="9" name="/BatteryConnectors/BATT_SPV1050">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="BATT" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/SPV1050TTR/BATT_CHG">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="BATT_CHG" pintype="output"/>
+    </net>
+    <net code="11" name="/SPV1050TTR/BATT_OK">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="BATT_CONN" pintype="output"/>
+    </net>
+    <net code="12" name="/SPV1050TTR/LDO_EN_1V8">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="LDO1_EN" pintype="input"/>
+    </net>
+    <net code="13" name="/SPV1050TTR/LDO_EN_3V3">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="LDO2_EN" pintype="input"/>
+    </net>
+    <net code="14" name="/SPV1050TTR/PV_MODULE">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="IN_HV" pintype="input"/>
+    </net>
+    <net code="15" name="/SPV1050TTR/STORE">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J26" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J26" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="STORE" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/SPV1050TTR/Vout_1V8">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="LDO1" pintype="output"/>
+    </net>
+    <net code="17" name="/SPV1050TTR/Vout_3V3">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="LDO2" pintype="output"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="BT1" pin="N1" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J27" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="CONF" pintype="input"/>
+      <node ref="U1" pin="18" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U1" pin="21" pinfunction="EXP" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="12" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="25" pinfunction="AGND" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="19" name="Net-(BT1-PadP1)">
+      <node ref="BT1" pin="P1" pintype="passive"/>
+      <node ref="BT1" pin="P2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="MPP_REF" pintype="input"/>
+    </net>
+    <net code="21" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="CBP" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(JP1-Pad1)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2" pinfunction="C" pintype="input"/>
+      <node ref="U2" pin="20" pinfunction="VID" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(JP1-Pad3)">
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="IN_LV" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(L1-Pad2)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="L_HV" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(L2-Pad2)">
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="SW" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="UVP" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="EOC" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="MPP" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="MPP_SET" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="21" pinfunction="MINOP" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="REF" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SETSD" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SETBK" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(R14-Pad2)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="MPPT" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(R16-Pad2)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="TERM" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SETPG" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="SETHYST" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(J2-PadS1)">
+      <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+      <node ref="J2" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J5-PadS1)">
+      <node ref="J5" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
+      <node ref="J5" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U2-Pad19)">
+      <node ref="U2" pin="19" pinfunction="PGOOD" pintype="output+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U2-Pad22)">
+      <node ref="U2" pin="22" pinfunction="DIS_SW" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
